@@ -1,0 +1,16 @@
+NerdDinner on NHibernate
+
+Steps...
+
+0. Disconnect NerdDinner.Tests Project
+
+1. Added references to FNH, NH, ...
+2. Create Entities and Mappings Folders
+3. Created new Dinners and RSVP Entity Classes
+4. Created new Dinners and RSVP Mapping Classes
+5. Retooled Dinners and RSVP Controllers to use new NerdDinner.Entities Classes instead of NerdDinner.Models Classes
+6. Retooled DinnerRespository Class to use new NerdDinner.Entities Classes instead of NerdDinner.Models Classes
+7. Modify Views to reference new NerdDinner.Entities Classes instead of NerdDinner.Models Classes 
+
+
+***********************

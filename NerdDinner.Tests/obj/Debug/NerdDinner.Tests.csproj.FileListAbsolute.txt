@@ -1,0 +1,28 @@
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0\NerdDinner.Tests\bin\Debug\NerdDinner.Tests.dll.config
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0\NerdDinner.Tests\bin\Debug\NerdDinner.Tests.dll
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0\NerdDinner.Tests\bin\Debug\NerdDinner.Tests.pdb
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0\NerdDinner.Tests\bin\Debug\Moq.dll
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0\NerdDinner.Tests\bin\Debug\NerdDinner.dll
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0\NerdDinner.Tests\bin\Debug\NerdDinner.pdb
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0\NerdDinner.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0\NerdDinner.Tests\obj\Debug\NerdDinner.Tests.dll
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0\NerdDinner.Tests\obj\Debug\NerdDinner.Tests.pdb
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\bin\Debug\NerdDinner.Tests.dll.config
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\bin\Debug\NerdDinner.Tests.dll
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\bin\Debug\NerdDinner.Tests.pdb
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\bin\Debug\Moq.dll
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\bin\Debug\NerdDinner.dll
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\bin\Debug\NerdDinner.pdb
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\obj\Debug\NerdDinner.Tests.dll
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\obj\Debug\NerdDinner.Tests.pdb
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\bin\Debug\FluentNHibernate.dll
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\bin\Debug\Iesi.Collections.dll
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\bin\Debug\log4net.dll
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\bin\Debug\NHibernate.dll
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\bin\Debug\FluentNHibernate.pdb
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\bin\Debug\FluentNHibernate.xml
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\bin\Debug\Iesi.Collections.xml
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\bin\Debug\log4net.xml
+C:\Users\John Petersen\Documents\Visual Studio 2008\Projects\NerdDinner 1.0 - FNH\NerdDinner.Tests\bin\Debug\NHibernate.xml

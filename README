@@ -1,0 +1,3 @@
+My version of Scott Hanselman's and Scott Guthrie's Nerd Dinner ASP MVC app. This version uses
+Fluent NHibernate as its data persistence mechanism. In addition, this version also incorporates
+a JQuery Date Time Picker.
