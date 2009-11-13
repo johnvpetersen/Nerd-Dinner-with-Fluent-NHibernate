@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using NerdDinner.Models;
+using NHibernate;
 
 namespace NerdDinner {
 
@@ -27,7 +29,12 @@ namespace NerdDinner {
         }
 
         void Application_Start() {
+
+            Application["SessionFactory"] = new SessionFactory().CreateSessionFactory();
+
             RegisterRoutes(RouteTable.Routes);
+
+
         }
     }
 }

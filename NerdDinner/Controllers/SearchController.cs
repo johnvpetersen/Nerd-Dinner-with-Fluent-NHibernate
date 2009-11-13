@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using NerdDinner.Models;
+using NHibernate;
 
 namespace NerdDinner.Controllers {
 
@@ -24,7 +25,8 @@ namespace NerdDinner.Controllers {
         // Dependency Injection enabled constructors
 
         public SearchController()
-            : this(new DinnerRepository()) {
+            : this(new DinnerRepository(((ISessionFactory)System.Web.HttpContext.Current.Application["SessionFactory"]).OpenSession()))
+        {
         }
 
         public SearchController(IDinnerRepository repository) {

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+
 using NerdDinner.Entities;
 using NHibernate;
 using NHibernate.Criterion;
@@ -11,10 +12,10 @@ namespace NerdDinner.Models
         private ISession _session;
 
 
-        public DinnerRepository()
+        public DinnerRepository(ISession session)
         {
-            var sessionfactory = new SessionFactory();
-            _session = sessionfactory.CreateSessionFactory().OpenSession();
+            _session = session;
+
         }
 
         // Query Methods

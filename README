@@ -1,3 +1,56 @@
 My version of Scott Hanselman's and Scott Guthrie's Nerd Dinner ASP MVC app. This version uses
 Fluent NHibernate as its data persistence mechanism. In addition, this version also incorporates
 a JQuery Date Time Picker.
+
+Revision: 11/13/2009
+################################
+Thanks to @defeated on Twitter for pointing out that each instance of the dinner repository creates its own session factory. Cleary, 
+this is not good. 
+
+Now, in application start, we have this code:
+
+
+Application["SessionFactory"] = new SessionFactory().CreateSessionFactory();
+
+
+This code used to be in the repository. Now, the repository requires a session object to be passed to it (constructor injenction). 
+
+Looking at the DinnersController, we now have this code:
+
+public DinnersController(): this(new DinnerRepository(((ISessionFactory)System.Web.HttpContext.Current.Application["SessionFactory"]).OpenSession()))
+    {
+
+}
+
+
+
+
+public DinnersController(IDinnerRepository repository)
+        
+
+{
+            
+   dinnerRepository = repository;
+        
+}
+
+
+
+The key is this code:
+
+new DinnerRepository(((ISessionFactory)System.Web.HttpContext.Current.Application["SessionFactory"]).OpenSession())
+
+Simply put, we cast the SessionFactory app variable - which was populated in the global.asax's application_start method - to type ISessionFactory. When we wrap all of that in ()'s, we can then invoke the OpenSession() method - allowing us to pass a new session object to the new DinnerRepository instance. The same thing was done for the other controllers that reference the Dinner Repository class.
+
+Be sure to change the sql express path in SessionFactory.CS. Currently, this line exists:
+
+
+c => c.Is(@"Data Source=.\SQLEXPRESS;AttachDbFilename='<<Your machine-specific path info here.>>\App_Data\NerdDinner.mdf';Integrated Security=True;User Instance=True"))) 
+
+Otherwise, you will get this error:
+
+An attempt to attach an auto-named database for file <<Your machine-specific path info here.>>\App_Data\NerdDinner.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.
+
+################################
+
+

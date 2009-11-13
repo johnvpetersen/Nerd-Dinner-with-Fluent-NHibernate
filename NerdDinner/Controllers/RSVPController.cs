@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using NerdDinner.Models;
+using NHibernate;
 using RSVP=NerdDinner.Entities.RSVP;
 
 namespace NerdDinner.Controllers
@@ -12,11 +13,19 @@ namespace NerdDinner.Controllers
 
         IDinnerRepository dinnerRepository;
 
+       
+
+
+
         //
         // Dependency Injection enabled constructors
 
         public RSVPController()
-            : this(new DinnerRepository()) {
+            : this(new DinnerRepository(((ISessionFactory)System.Web.HttpContext.Current.Application["SessionFactory"]).OpenSession()))
+        {
+
+            
+        
         }
 
         public RSVPController(IDinnerRepository repository) {

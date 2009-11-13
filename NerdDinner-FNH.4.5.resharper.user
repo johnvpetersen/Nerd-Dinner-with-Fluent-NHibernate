@@ -1,0 +1,30 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Models/f:IDinnerRepository.cs" caret="0" fromTop="0" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/f:Global.asax.cs" caret="0" fromTop="0" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Models/f:DinnerRepository.cs" caret="35" fromTop="3" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Models/f:SessionFactory.cs" caret="556" fromTop="14" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Models/f:DinnerRepository.cs" caret="316" fromTop="16" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Models/f:SessionFactory.cs" caret="480" fromTop="14" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+</Configuration>
