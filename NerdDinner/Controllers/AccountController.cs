@@ -1,14 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
 using System.Security.Principal;
-using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
-using System.Web.UI;
 
 namespace NerdDinner.Controllers {
+
+    public class MembershipProviderFactory
+    {
+        public MembershipProvider GetProvider()
+        {
+            return Membership.Provider;
+        }
+    }
+
+
 
     [HandleError]
     public class AccountController : Controller {
@@ -265,9 +271,11 @@ namespace NerdDinner.Controllers {
     public class AccountMembershipService : IMembershipService {
         private MembershipProvider _provider;
 
+       
         public AccountMembershipService()
             : this(null) {
         }
+
 
         public AccountMembershipService(MembershipProvider provider) {
             _provider = provider ?? Membership.Provider;

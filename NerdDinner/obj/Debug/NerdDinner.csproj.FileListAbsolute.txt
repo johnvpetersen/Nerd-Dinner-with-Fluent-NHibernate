@@ -55,28 +55,27 @@ C:\Users\John Petersen\Projects\NerdDinner 1.0 - FNH\NerdDinner\bin\Castle.Core.
 C:\Users\John Petersen\Projects\NerdDinner 1.0 - FNH\NerdDinner\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\John Petersen\Projects\NerdDinner 1.0 - FNH\NerdDinner\obj\Debug\NerdDinner.dll
 C:\Users\John Petersen\Projects\NerdDinner 1.0 - FNH\NerdDinner\obj\Debug\NerdDinner.pdb
+C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\NerdDinner.dll
 C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\NerdDinner.pdb
 C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\FluentNHibernate.dll
 C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\NHibernate.ByteCode.Castle.dll
 C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\NHibernate.dll
-C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\NHibernate.Linq.dll
 C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\System.Web.Mvc.dll
-C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\Castle.DynamicProxy2.dll
 C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\Iesi.Collections.dll
+C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\Castle.DynamicProxy2.dll
 C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\Antlr3.Runtime.dll
 C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\log4net.dll
-C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\Castle.Core.dll
-C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\NHibernate.Linq.xml
-C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\Castle.DynamicProxy2.xml
+C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\Iesi.Collections.xml
 C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\System.Web.Mvc.xml
+C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\Castle.DynamicProxy2.xml
 C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\NHibernate.ByteCode.Castle.xml
 C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\FluentNHibernate.pdb
 C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\FluentNHibernate.xml
-C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\Iesi.Collections.xml
 C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\log4net.xml
 C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\NHibernate.xml
-C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\Castle.Core.xml
-C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\obj\Debug\NerdDinner.dll
 C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\obj\Debug\NerdDinner.pdb
+C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\StructureMap.dll
+C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\Castle.Core.dll
+C:\Users\John Petersen\Projects\Nerd-Dinner-with-Fluent-NHibernate\NerdDinner\bin\Castle.Core.xml

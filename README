@@ -1,7 +1,60 @@
-My version of Scott Hanselman's and Scott Guthrie's Nerd Dinner ASP MVC app. This version uses
-Fluent NHibernate as its data persistence mechanism. In addition, this version also incorporates
-a JQuery Date Time Picker.
+My version of Scott Hanselman's and Scott Guthrie's Nerd Dinner ASP MVC app. This version uses 
+Fluent NHibernate as its data persistence mechanism, NUnit for unit testing and StructureMap for Dependency Injection/Inversion of Control. In addition, this version also incorporates
+ a JQuery Date Time Picker.
 
+
+Revision: 11/18/2009
+################################
+
+As promised, I have added IoC support using StructureMap. To walk though the code, I suggest you add a breakpoint
+to the RegisterClasses() call in Application_Start() in Global.asax.
+
+As you can see, the change made last week has been modified. Because an IoC container is being used, there is no longer
+a need to manually instantiate the NHibernate Session and repositories. StructureMap now handles that work. 
+
+For example, this: Application["SessionFactory"] = new SessionFactory().CreateSessionFactory();
+
+was replaced with: Application["SessionFactory"] = ObjectFactory.GetInstance<ICustomSessionFactory>().CreateSessionFactory();
+
+In order to support StructureMap, a new StructureMapControllerFactory class was added. You can find it under the Controllers Folder.
+
+
+In order for things to work correctly with the AccountController, I had to create a new MembershipProviderFactory class that
+serves up the Membership.Provider instance when needed. 
+
+This is the code in the RegisterClasses method in Global.asax that uses the new MembershipProviderFactory:
+
+ObjectFactory.Configure(
+                x => x.ForRequestedType<MembershipProvider>()
+                         .TheDefault.Is.ConstructedBy(
+                         () => ObjectFactory.GetInstance<MembershipProviderFactory>().GetProvider()));
+        }
+
+As the code implies, when there is a request for a MembershipProvider instance, the MembershipProviderFactory.GetProvider method is
+invoked. The reason this was required was because Membership is a static class, and therefore, cannot be used directly by StructureMap.
+To get around the problem, I employed the Factory Pattern. Yet more evidence as to why the Factory Pattern is so important and why
+it should be used.. 
+
+I originally wanted to use Castle Windsor as the IoC Container. However, I ran into too many problems getting it to work in the MVC environment. Indeed, Steve Sanderson does use Windsor. However, he uses XML configuration data to populate the IoC container. I think
+Steve's ASP book is great. That said, I like to avoid XML configuration whenever possible. I have not used StructureMap before and figured
+this was as good a time as any to use it.
+
+I also added support for the nUnit Unit Testing Framework. Currently, there are 68 tests in the application - and they pass!! Once I 
+added support for nHibernate a few months ago, the MS-based test framework would no longer work.   
+
+Lastly, I made some changes to make the UI more informative. For example, in the Dinners\Index.aspx page, I added indicators
+to denote whether, for a given dinner, you are either attending or hosting. If you are hosting, the lineitem is in bold with an *.
+If you are attending, the line is suffixed with **.
+
+In the RSVPStatus.ascx page, I made the status more explicit. Under the original version, if you were hosting the dinner, the message stated
+that you were attending. I modified things a to differentiate between hosting and attending.
+
+I think this version of nerddinner illustrates a simple way to get up and running with ASP MVC - using NHibernate, Structuremap, NUnit and JQuery. Enjoy... !!
+
+
+
+
+################################
 Revision: 11/13/2009
 ################################
 Thanks to @defeated on Twitter for pointing out that each instance of the dinner repository creates its own session factory. Cleary, 
@@ -52,5 +105,8 @@ Otherwise, you will get this error:
 An attempt to attach an auto-named database for file <<Your machine-specific path info here.>>\App_Data\NerdDinner.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.
 
 ################################
+
+
+
 
 

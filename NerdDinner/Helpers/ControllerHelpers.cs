@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using NerdDinner.Models;
 using System.Web.Mvc;
+using NHibernate;
 
 namespace NerdDinner.Helpers {
 
@@ -15,5 +16,6 @@ namespace NerdDinner.Helpers {
                 modelState.AddModelError(issue.PropertyName, issue.ErrorMessage);
             }
         }
+
     }
 }

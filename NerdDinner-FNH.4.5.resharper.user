@@ -3,6 +3,7 @@
     <string />
     <integer />
     <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
       <setting name="SolutionAnalysisEnabled">False</setting>
     </boolean>
   </SettingsComponent>
@@ -12,13 +13,64 @@
   <RecentFiles>
     <RecentFiles>
       <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Models/f:IDinnerRepository.cs" caret="0" fromTop="0" />
-      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/f:Global.asax.cs" caret="0" fromTop="0" />
-      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Models/f:DinnerRepository.cs" caret="35" fromTop="3" />
-      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Models/f:SessionFactory.cs" caret="556" fromTop="14" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Controllers/f:SearchController.cs" caret="812" fromTop="13" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/f:Web.config" caret="0" fromTop="0" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Models/f:SessionFactory.cs" caret="714" fromTop="13" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Models/f:DinnerRepository.cs" caret="296" fromTop="3" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Controllers/f:HomeController.cs" caret="328" fromTop="4" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Models/f:DinnerTest.cs" caret="775" fromTop="27" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/f:App.config" caret="0" fromTop="0" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Controllers/f:RSVPController.cs" caret="0" fromTop="0" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Controllers/f:DinnersController.cs" caret="1743" fromTop="18" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:DinnersControllerTest.cs" caret="306" fromTop="5" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Controllers/f:StructureMapControllerFactory.cs" caret="360" fromTop="13" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Fakes/f:FakeDinnerData.cs" caret="69" fromTop="2" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Fakes/f:FakeDinnerRepository.cs" caret="66" fromTop="2" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:SearchControllerTest.cs" caret="1326" fromTop="49" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:AccountControllerTest.cs" caret="140" fromTop="6" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:HomeControllerTest.cs" caret="0" fromTop="0" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:RSVPControllerTest.cs" caret="1254" fromTop="45" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Views/d:Dinners/f:Deleted.aspx" caret="0" fromTop="0" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Views/d:Dinners/f:EditAndDeleteLinks.ascx" caret="0" fromTop="0" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Views/d:Dinners/f:Details.aspx" caret="0" fromTop="0" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Models/f:Dinner.cs" caret="0" fromTop="0" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Entities/f:Dinners.cs" caret="0" fromTop="0" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Controllers/f:AccountController.cs" caret="309" fromTop="12" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/f:Global.asax.cs" caret="2755" fromTop="27" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Views/d:Dinners/f:Index.aspx" caret="0" fromTop="0" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Views/d:Dinners/f:RSVPStatus.ascx" caret="0" fromTop="0" />
     </RecentFiles>
     <RecentEdits>
-      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Models/f:DinnerRepository.cs" caret="316" fromTop="16" />
-      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Models/f:SessionFactory.cs" caret="480" fromTop="14" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Models/f:DinnerTest.cs" caret="775" fromTop="15" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:DinnersControllerTest.cs" caret="1155" fromTop="9" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:DinnersControllerTest.cs" caret="1999" fromTop="0" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:DinnersControllerTest.cs" caret="14908" fromTop="14" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:DinnersControllerTest.cs" caret="15057" fromTop="18" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:DinnersControllerTest.cs" caret="5035" fromTop="15" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:DinnersControllerTest.cs" caret="5441" fromTop="19" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:DinnersControllerTest.cs" caret="5896" fromTop="17" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:DinnersControllerTest.cs" caret="6462" fromTop="17" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:DinnersControllerTest.cs" caret="7732" fromTop="18" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:DinnersControllerTest.cs" caret="8177" fromTop="18" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Fakes/f:FakeDinnerRepository.cs" caret="66" fromTop="2" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Fakes/f:FakeDinnerData.cs" caret="47" fromTop="1" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:SearchControllerTest.cs" caret="33" fromTop="0" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:SearchControllerTest.cs" caret="141" fromTop="5" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:SearchControllerTest.cs" caret="822" fromTop="10" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:SearchControllerTest.cs" caret="1199" fromTop="10" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:HomeControllerTest.cs" caret="22" fromTop="1" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:AccountControllerTest.cs" caret="140" fromTop="6" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:RSVPControllerTest.cs" caret="118" fromTop="6" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:RSVPControllerTest.cs" caret="0" fromTop="0" />
+      <File id="DCF277C2-270F-4806-B2F6-8F757713D21A/d:Controllers/f:RSVPControllerTest.cs" caret="1233" fromTop="10" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Views/d:Dinners/f:RSVPStatus.ascx" caret="1078" fromTop="21" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Views/d:Dinners/f:RSVPStatus.ascx" caret="830" fromTop="13" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Views/d:Dinners/f:RSVPStatus.ascx" caret="728" fromTop="11" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Views/d:Dinners/f:RSVPStatus.ascx" caret="564" fromTop="3" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Views/d:Dinners/f:Index.aspx" caret="1138" fromTop="15" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Views/d:Dinners/f:Index.aspx" caret="587" fromTop="6" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Views/d:Dinners/f:Index.aspx" caret="980" fromTop="11" />
+      <File id="328C148C-DBEE-41A4-B1C7-104CBB216556/d:Views/d:Dinners/f:Index.aspx" caret="1287" fromTop="11" />
     </RecentEdits>
   </RecentFiles>
   <UnitTestRunner>
@@ -27,4 +79,138 @@
   <UnitTestRunnerMSTest>
     <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
   </UnitTestRunnerMSTest>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="5" />
+      <Item value="ControllerFactory" priority="0" />
+      <Item value="container" priority="3" />
+      <Item value="new" priority="5" />
+      <Item value="WindsorContainer" priority="0" />
+      <Item value="var" priority="1" />
+      <Item value="from" priority="0" />
+      <Item value="AssemblyBundleResource" priority="0" />
+      <Item value="where" priority="0" />
+      <Item value="typeof" priority="0" />
+      <Item value="IController" priority="2" />
+      <Item value="select" priority="0" />
+      <Item value="t" priority="2" />
+      <Item value="foreach" priority="0" />
+      <Item value="Type" priority="0" />
+      <Item value="protected" priority="0" />
+      <Item value="override" priority="0" />
+      <Item value="controllerType" priority="0" />
+      <Item value="ControllerBase" priority="0" />
+      <Item value="DinnersController" priority="3" />
+      <Item value="HomeController" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="NerdDinner" priority="0" />
+      <Item value="MvcApplication" priority="0" />
+      <Item value="int" priority="2" />
+      <Item value="controller" priority="1" />
+      <Item value="ActionResult" priority="0" />
+      <Item value="return" priority="1" />
+      <Item value="ViewPage" priority="0" />
+      <Item value="routes" priority="0" />
+      <Item value="Url" priority="0" />
+      <Item value="Defaults" priority="0" />
+      <Item value="class" priority="1" />
+      <Item value="void" priority="1" />
+      <Item value="false" priority="0" />
+      <Item value="_container" priority="1" />
+      <Item value="IDinnerRepository" priority="0" />
+      <Item value="DinnerRepository" priority="1" />
+      <Item value="ObjectFactory" priority="1" />
+      <Item value="ISessionFactory" priority="0" />
+      <Item value="SessionFactory" priority="1" />
+      <Item value="interface" priority="0" />
+      <Item value="ICustomSessionFactory" priority="2" />
+      <Item value="IFormsAuthentication" priority="0" />
+      <Item value="FormsAuthenticationService" priority="0" />
+      <Item value="MembershipProvider" priority="2" />
+      <Item value="null" priority="0" />
+      <Item value="Membership" priority="3" />
+      <Item value="System" priority="0" />
+      <Item value="Web" priority="0" />
+      <Item value="Mvc" priority="0" />
+      <Item value="private" priority="0" />
+      <Item value="result" priority="0" />
+      <Item value="dinner" priority="2" />
+      <Item value="else" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.Assembly">
+      <Item value="GetExecutingAssembly" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.Assembly">
+      <Item value="GetTypes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="IsAssignableFrom" priority="0" />
+      <Item value="FullName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.Windsor.WindsorContainer">
+      <Item value="AddComponentLifeStyle" priority="0" />
+      <Item value="Resolve" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Castle.Core.LifestyleType">
+      <Item value="Transient" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.ControllerBuilder">
+      <Item value="Current" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ControllerBuilder">
+      <Item value="SetControllerFactory" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.Windsor.IWindsorContainer">
+      <Item value="Resolve" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Routing.RouteCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.MicroKernel.Registration.Lifestyle.LifestyleGroup`1">
+      <Item value="PerWebRequest" priority="1" />
+      <Item value="Transient" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Practices.Unity.UnityContainer">
+      <Item value="RegisterType" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@StructureMap.ObjectFactory">
+      <Item value="ForGenericType" priority="0" />
+      <Item value="GetInstance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.ConfigurationExpression">
+      <Item value="ForRequestedType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1">
+      <Item value="TheDefaultIsConcreteType" priority="1" />
+      <Item value="BuildPolicyIs" priority="0" />
+      <Item value="TheDefault" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinner.Models.ICustomSessionFactory">
+      <Item value="CreateSessionFactory" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Configuration.DSL.Expressions.IsExpression`1">
+      <Item value="Is" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1">
+      <Item value="ConstructedBy" priority="0" />
+      <Item value="IsThis" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Security.Membership">
+      <Item value="Provider" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinner.Controllers.MembershipProviderFactory">
+      <Item value="GetProvider" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="IsInstanceOf" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinner.Models.Dinner">
+      <Item value="Description" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinner.Entities.Dinners">
+      <Item value="HostedBy" priority="1" />
+      <Item value="IsHostedBy" priority="0" />
+      <Item value="IsUserRegistered" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>

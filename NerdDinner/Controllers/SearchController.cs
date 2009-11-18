@@ -24,11 +24,7 @@ namespace NerdDinner.Controllers {
         //
         // Dependency Injection enabled constructors
 
-        public SearchController()
-            : this(new DinnerRepository(((ISessionFactory)System.Web.HttpContext.Current.Application["SessionFactory"]).OpenSession()))
-        {
-        }
-
+        
         public SearchController(IDinnerRepository repository) {
             dinnerRepository = repository;
         }

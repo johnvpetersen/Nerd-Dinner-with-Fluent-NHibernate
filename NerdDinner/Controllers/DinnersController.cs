@@ -34,16 +34,11 @@ namespace NerdDinner.Controllers
     {
         private IDinnerRepository dinnerRepository;
 
-
+       
         //
         // Dependency Injection enabled constructors
 
-        public DinnersController(): this(new DinnerRepository(((ISessionFactory)System.Web.HttpContext.Current.Application["SessionFactory"]).OpenSession()))
-        {
-
-        }
-
-        public DinnersController(IDinnerRepository repository)
+       public DinnersController(IDinnerRepository repository)
         {
             dinnerRepository = repository;
         }
@@ -65,6 +60,7 @@ namespace NerdDinner.Controllers
         //
         // GET: /Dinners/Details/5
 
+      
         public ActionResult Details(int id)
         {
             NerdDinner.Entities.Dinners dinner = dinnerRepository.GetDinner(id);

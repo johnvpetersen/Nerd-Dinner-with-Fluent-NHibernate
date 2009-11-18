@@ -12,21 +12,9 @@ namespace NerdDinner.Controllers
     public class RSVPController : Controller {
 
         IDinnerRepository dinnerRepository;
-
-       
-
-
-
         //
         // Dependency Injection enabled constructors
 
-        public RSVPController()
-            : this(new DinnerRepository(((ISessionFactory)System.Web.HttpContext.Current.Application["SessionFactory"]).OpenSession()))
-        {
-
-            
-        
-        }
 
         public RSVPController(IDinnerRepository repository) {
             dinnerRepository = repository;

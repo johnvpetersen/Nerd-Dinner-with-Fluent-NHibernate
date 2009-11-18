@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Web.Mvc;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NerdDinner;
+﻿using System.Web.Mvc;
 using NerdDinner.Controllers;
+using NUnit.Framework;
 
 namespace NerdDinner.Tests.Controllers {
-    [TestClass]
+    [TestFixture]
     public class HomeControllerTest {
-        [TestMethod]
+        [Test]
         public void Index() {
             // Arrange
             HomeController controller = new HomeController();
@@ -21,7 +16,7 @@ namespace NerdDinner.Tests.Controllers {
             // Assert
         }
 
-        [TestMethod]
+        [Test]
         public void About() {
             // Arrange
             HomeController controller = new HomeController();

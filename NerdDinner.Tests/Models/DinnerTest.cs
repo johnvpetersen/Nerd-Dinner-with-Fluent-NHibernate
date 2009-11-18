@@ -4,13 +4,15 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NerdDinner.Models;
+using NUnit.Framework;
+using Assert=Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
 
 namespace NerdDinner.Tests.Models {
 
-    [TestClass]
+    [TestFixture]
     public class DinnerTest {
 
-        [TestMethod]
+        [Test]
         public void Dinner_Should_Not_Be_Valid_When_Some_Properties_Incorrect() {
 
             //Arrange
@@ -27,7 +29,7 @@ namespace NerdDinner.Tests.Models {
             Assert.IsFalse(isValid);
         }
 
-        [TestMethod]
+        [Test]
         public void Dinner_Should_Be_Valid_When_All_Properties_Correct() {
             
             //Arrange

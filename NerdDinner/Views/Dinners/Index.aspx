@@ -15,16 +15,30 @@
         <% foreach (var dinner in Model) { %>
         
             <li>     
+                <% if (dinner.IsHostedBy(Context.User.Identity.Name)){ %>
+                <b>
+                <%} %>
                 <%= Html.ActionLink(dinner.Title, "Details", new { id=dinner.DinnerID }) %>
                 on 
                 <%= Html.Encode(dinner.EventDate.ToShortDateString())%> 
                 @
                 <%= Html.Encode(dinner.EventDate.ToShortTimeString())%>
+                <% if (dinner.IsHostedBy(Context.User.Identity.Name)){ %>
+                    *</b>
+                <%} else { %>
+                <%if (dinner.IsUserRegistered(Context.User.Identity.Name))
+                  {%>
+                   <b>**</b> 
+                
+                <%}} %>
             </li>
         
         <% } %>
 
     </ul>
+   <b>*  denotes a dinner you are hosting<p></b>
+    ** denotes a dinner you are attending
+
 
     <div class="pagination">
 

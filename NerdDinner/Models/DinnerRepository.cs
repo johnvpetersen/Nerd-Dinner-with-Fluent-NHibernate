@@ -7,7 +7,7 @@ using NHibernate.Criterion;
 
 namespace NerdDinner.Models
 {
-    public class DinnerRepository : NerdDinner.Models.IDinnerRepository
+    public class DinnerRepository : IDinnerRepository
     {
         private ISession _session;
 

@@ -15,17 +15,28 @@
 
 <% if (Request.IsAuthenticated) { %>
 
-    <% if (Model.IsUserRegistered(Context.User.Identity.Name)) { %>        
+<%if (Model.IsHostedBy(Context.User.Identity.Name))
+  { %>
+        <b><p>You are hosting this dinner!</b></p>
+<%}
+  else
+  {%>
+
+    <% if (Model.IsUserRegistered(Context.User.Identity.Name))
+       { %>        
     
-        <p>You are registered for this event!</p>
+        <p>You are registered for this dinner!</p>
     
-    <% } else { %>  
+    <% }
+       else
+       { %>  
     
-        <%= Ajax.ActionLink( "RSVP for this event",
+        <%= Ajax.ActionLink("RSVP for this dinner",
                              "Register", "RSVP",
-                             new { id=Model.DinnerID }, 
-                             new AjaxOptions { UpdateTargetId="rsvpmsg", OnSuccess="AnimateRSVPMessage" }) %>         
-    <% } %>
+                             new { id = Model.DinnerID },
+                             new AjaxOptions { UpdateTargetId = "rsvpmsg", OnSuccess = "AnimateRSVPMessage" })%>         
+    <% }
+  } %>
     
 <% } else { %>
 
